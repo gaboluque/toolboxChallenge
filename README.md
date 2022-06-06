@@ -1,5 +1,4 @@
 ## Toolbox challenge
-<hr>
 
 This is a sample project intended as a Toolbox Challenge. 
 
