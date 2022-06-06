@@ -1,0 +1,55 @@
+/* Since its a simple app, I decided to go with just one style's file
+ * In other circumstances, each component should have it's own style file
+ */
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+    height: 40px;
+    background: #ff6665;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input-container {
+    width: 200px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.table-container table {
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+}
+
+.table-container table thead {
+    border-bottom: 2px solid #000000;
+}
+
+.table-container table th, .table-container table td  {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.table-container table tr  {
+    border: 1px solid #e0e0e0;
+}
+
+.table-container table tr:nth-child(odd)  {
+    background: #efefef;
+}
